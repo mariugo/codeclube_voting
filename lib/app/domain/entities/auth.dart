@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
 class Auth extends Equatable {
-  final String id;
+  final int id;
   final bool canVote;
 
   const Auth({
